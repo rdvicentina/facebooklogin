@@ -1,0 +1,224 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+	font-family: 'Kreon';
+	src: url(Kreon.ttf);
+}
+
+@font-face {
+	font-family: 'Junge';
+	src: url(Junge-Regular.ttf);
+}
+
+.navbar{
+	height: 80px;
+	width: 100%;
+	background: linear-gradient(#59656F, #1D1E2C);
+	border-bottom: 1px solid #253a69;
+}
+
+.logo{
+	position: absolute;
+	height: 63px;
+	width: 190px;
+	left: 10%;
+	padding-top: 7px;
+	font-family: 'Kreon';
+	font-size: 40pt;
+	font-weight: bold;
+	color: #ffffff;
+	
+}
+
+.login{
+	display: flex;
+	position: absolute;
+	font-family: 'Junge';
+	left: 62%;
+	top: 20px;
+	color: white;
+	font-size: 13px;
+	padding-bottom: 4px;
+}
+
+.login .email,
+.login .password{
+	padding-left: 15px;
+}
+	
+.login .email input,
+.login .password  input{
+	height: 23px;
+	width: 150px;
+	padding-left: 5px;
+	border: 1px solid black;
+	outline: none;
+}
+
+.login .password a:hover{
+	text-decoration: underline;
+	color: white;
+}
+
+.btn_login{
+	height: 24px;
+	width: 50px;
+	font-family: 'Junge';
+	font-weight: 600;
+	margin-left: 15px;
+	margin-top: 15px;
+	outline: none;
+	border: 1px solid #59656F;
+	cursor: pointer;
+}
+
+.btn_login:hover{
+	background: #ac9fbb;
+}
+
+section{
+	height: 640px;
+	width: 100%;
+	top: 800px;
+	background: linear-gradient(#f7ebec, #ddbdd5, #ac9fbb);
+}
+
+.body{
+	position: absolute;
+	height: 400px;
+	width: 40%;
+	left: 10%;
+	top: 30%;
+}
+
+.message{
+	font-family: 'Kreon';
+	font-size: 30pt;
+}
+
+.sub{
+	left: 10%;
+	top: 500%;
+	font-family: 'Kreon';
+	font-size: 20pt;
+}
+
+.signup{
+	font-family: 'Junge';
+	position:absolute;
+	left:57%;
+}
+
+.signup .acct_crt{
+	font-size: 40px;
+	margin: 25px 0;
+}
+
+.signup .free{
+	margin: -20px 5px;
+	font-size: 18px;
+}
+
+.signup .signup_form input{
+	margin-top: 50px;
+	height: 38px;
+	width: 190px;
+	padding-left: 10px;
+	font-size: 18px;
+	border: 1px solid silver;
+	border-radius: 4px;
+	font-family:'Junge';
+}
+
+.signup .signup_form .lname{
+	margin-left: 25px;
+}
+
+.signup .signup_form .emailadd,
+.signup .signup_form .password,
+.signup .signup_form .cpassword{
+	margin-top: 20px;
+	width: 410px;
+}
+
+.signup .signup_form .birthday{
+	margin-top: 15px;
+	font-size: 20px;
+	font-weight: bold;
+	color: grey;
+}
+
+.signup .signup_form .birthdate{
+	margin-top: 5px;
+}
+
+.signup .signup_form .month,
+.signup .signup_form .day,
+.signup .signup_form .year{
+	height: 28px;
+}
+
+.signup .signup_form .day,
+.signup .signup_form .year{
+	height: -5px;
+}
+
+.signup .signup_form .birth_hint{
+	font-size: 11px;
+	padding-left: 175px;
+	margin-top: -28px;
+	width: 150px;
+}
+
+.signup .signup_form a{
+	text-decoration: none;
+}
+
+.signup .signup_form a:hover{
+	text-decoration: underline;
+}
+
+.signup .signup_form input[type="radio"]{
+	height: 15px;
+	margin-left: -50px;
+	margin-top: 15px;
+}
+
+.signup .signup_form input[value="female"]{
+	margin-left: -100px;
+}
+
+.signup .signup_form .font{
+	margin-left: 57px;
+	margin-top: -20px;
+}
+
+.signup .signup_form .font1{
+	margin-left: 150px;
+	margin-top: -20px;
+}
+
+.signup .signup_form .agreement{
+	margin-top: 15px;
+	font-size: 12px;
+	width: 350px;
+	color: grey;
+}
+
+.signup .signup_form .btn_signup{
+	margin-top: 20px;
+	height: 38px;
+	width: 170px;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Junge';
+	border: 1px solid black;
+	border-radius: 3px;
+	cursor: pointer;
+	outline: none;
+	background: linear-gradient( #59656f, #1d1e2c);
+}
